@@ -5,8 +5,9 @@ This project analyzes Amazon Vine program and determines if there is a bias towa
 The analysis uses PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, load the transformed data into pgAdmin and calculate different metrics.
 
 The Sample dataset we use is Music
-
+    - Vine reviews <p align="center">
     <img src="https://github.com/harryleelhl/Amazon_Vine_Analysis/blob/main/1.png"> 
+</p>
     
 How many Vine reviews and non-Vine reviews were there?
 The number of paid Vine reviews were 7 and the number of non paid Vine reviews were 105, 979
